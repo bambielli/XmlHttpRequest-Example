@@ -3,7 +3,7 @@
  * When readystate === 4, this means the server has finshed transferring its response to the browser
  */
 var readyStateValues = {
-    0: 'Not Initialized',
+    0: 'Xhr Client Created',
     1: 'Connection Established',
     2: 'Response Headers Received',
     3: 'Downloading responseText',
