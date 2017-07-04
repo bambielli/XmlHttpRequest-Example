@@ -1,0 +1,47 @@
+.hidden {
+  display: none;
+}
+
+.flex {
+    margin-top:20px;
+    display: flex;
+}
+
+.child {
+    margin: auto;
+    width: 46%;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
+table {
+  width: 46%;
+  margin-bottom:20px;
+  border-collapse: collapse;
+  display: table;
+}
+
+tr {
+  height: 50px;
+}
+
+tr:hover {
+  background-color: #f5f5f5
+}
+
+th, td{
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+  text-align: center;
+}
+
+th:first-child {
+  text-align: center;
+}
+
